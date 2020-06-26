@@ -17,7 +17,7 @@ and each of the jumps are to a `nop` and ultimately, the incorrect puts.
 
 ![Ida4](/img/ida4.png)\
 \
-We also can inspect a couple more important aspects of the logic\
+We also can inspect a couple more important aspects of the logic
 
 ![Ida5](/img/ida5.png)\
 \
