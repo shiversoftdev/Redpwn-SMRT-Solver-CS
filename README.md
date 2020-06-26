@@ -30,7 +30,7 @@ so we know for a fact that the input flag is exactly 0x49 in length.\
 ![Ida6](/img/ida6.png)\
 \
 Further down, when inspecting the win condition, we recognize that all characters will meet c `isalpha` specifications.
-[!Ida7](/img/ida7.png)\
+![Ida7](/img/ida7.png)\
 \
 This introduces a bug in the algorithm, unfortunately, but we will address that later.
 We now have enough information to intelligently bruteforce the solution.
