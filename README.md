@@ -3,9 +3,10 @@ My first ever writeup so if its bad, my bad lol.
 
 So when I approached this problem, first thing I did was pop it into IDA, as one does,\
 and after navigating to the main function, we are treated with a lovely suprise:\
+### A 40K+ line assembly chunk in main.\
 ![Ida1](/img/ida1.gif)\
 \
-A 40K+ line assembly chunk in main. This ofc means any decompiler is going to fail,\
+This of course means any decompiler is going to fail,\
 and looking closer at the function we notice all the jumps are `jbe` and `jnb`, meaning all the compareops are relative.\
 ![Ida2](/img/ida2.png)\
 \
