@@ -11,7 +11,7 @@ and looking closer at the function we notice all the jumps are `jbe` and `jnb`, 
 ![Ida2](/img/ida2.png)\
 \
 Further inspecting the operators of the jumps shows that each operator is some offset of the input string,\
-and each of the jumps are to a `nop` and ultimately, the incorrect puts.\
+and each of the jumps are to a `nop` and ultimately, the incorrect puts.
 
 ![Ida3](/img/ida3.png)\
 
