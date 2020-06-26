@@ -3,7 +3,7 @@ My first ever writeup so if its bad, my bad lol.
 
 So when I approached this problem, first thing I did was pop it into IDA, as one does,\
 and after navigating to the main function, we are treated with a lovely suprise:\
-### A 40K+ line assembly chunk in main.\
+### A 40K+ line assembly chunk in main.
 ![Ida1](/img/ida1.gif)\
 \
 This of course means any decompiler is going to fail,\
